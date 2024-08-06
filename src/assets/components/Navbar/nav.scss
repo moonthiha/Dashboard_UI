@@ -1,0 +1,69 @@
+@import "../../../style/global.scss";
+.navbar{
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    background-color: $main-bg;
+    border-bottom: 1px solid #dddddd32;
+    color: white;
+
+    .logoContainer{
+        display: flex;
+        flex: 3;
+        align-items: center;
+        gap: 12px;
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .end{
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+            position: relative;
+
+           .budge{
+             span{
+                position: absolute;
+                background-color: red;
+                width:  17px;
+                height: 17px;
+                border-radius: 50%;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 0px;
+                right: 8px;
+             }
+           }
+        }
+    
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img{
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+
+        img {
+            cursor: pointer;
+        }
+    }
+}

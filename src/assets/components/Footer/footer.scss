@@ -1,0 +1,18 @@
+@import "../../../style/global.scss";
+
+.footer{
+    background-color: $main-bg;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    span{
+        color: white;
+
+        &:first-child{
+            font-weight: bold;
+        }
+        &:last-child{
+            font-size: 14px;
+        }
+    }
+}

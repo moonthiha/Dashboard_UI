@@ -1,0 +1,43 @@
+@import "../../../style/global.scss";
+
+.left{
+    width: 200px;
+    
+    // height: 100vh;
+    background-color: $main-bg;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    .first,.lists,.general,.maintenance,.analytics{
+
+        .title{
+            padding: 10px;
+            span{
+                font-size: 14px;
+                color: #dddddd90;
+            }
+        }
+
+        .item{
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            img{}
+            span{
+                font-size: 12px;
+                color: white;
+            }
+
+            &:hover{
+                background-color: $soft-bg;
+            }
+        }
+    }
+}

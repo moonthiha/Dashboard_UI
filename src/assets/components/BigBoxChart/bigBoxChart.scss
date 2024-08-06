@@ -1,0 +1,17 @@
+.bigBoxChart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title{
+        font-size: 20px;
+        color: #dddddd90;
+    }
+
+    .chartInfo{
+        width: 100%;
+        height: 300px;
+    }
+}

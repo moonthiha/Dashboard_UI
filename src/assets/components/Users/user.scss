@@ -1,0 +1,22 @@
+.users{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .userInfo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span{
+            color: #dddddd90;
+            font-size: 20px;
+        }
+        button{
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
